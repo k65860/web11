@@ -16,13 +16,19 @@
 
         var i = 0;
         while(i < sanrio.length) {
-            document.write('<li><a href="https://ko.wikipedia.org/wiki/'
-            + sanrio[i] + '">' + sanrio[i] + "</li>");
+            document.write(
+            '<li><a href="https://ko.wikipedia.org/wiki/' +
+            sanrio[i] +
+            '">' +
+            sanrio[i] + 
+            "</li>"
+        );
 
         document.write(
             '<img src="http://sanriokorea.co.kr/wp-content/themes/sanrio/images/' +
             imgList[i] +
-            '.png" width="30%"/>')
+            '.png" width="30%">'
+        );
         i += 1;
     }
     </script>
