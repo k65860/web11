@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>산리오</h1>
+        <h2>산리오친구들</h2>
+        <h3>스타팅 산리오</h3>
+    <script>
+        const sanrio = ["헬로키티", "시나모롤", "폼폼푸린"];
+        const imgList = ['new_main_crt1_ov', 'new_main_crt2_ov', 'new_main_crt3_ov'];
+
+        var i = 0;
+        while(i < sanrio.length) {
+            document.write('<li><a href="https://ko.wikipedia.org/wiki/'
+            + sanrio[i] + '">' + sanrio[i] + "</li>");
+
+        document.write(
+            '<img src="http://sanriokorea.co.kr/wp-content/themes/sanrio/images/' +
+            imgList[i] +
+            '.png" width="30%">')
+        i += 1;
+    }
+    </script>
+</body>
+</html>
